@@ -48,7 +48,7 @@ _Asegúrate de que al abrir `https://miguel-unstippled-tonja.ngrok-free.dev` en 
 
 Ve a tu repositorio en GitHub y navega a **Settings > Secrets and variables > Actions > New repository secret** y agrega los siguientes secretos:
 
-- **`SONAR_HOST_URL`**: `https://miguel-unstippled-tonja.ngrok-free.dev`
+- **`SONAR_HOST_URL`**: `ngrok http --domain=anemia-oops-trunks.ngrok-free.dev 9000`
 - **`SONAR_TOKEN`**: _(El token generado en el paso anterior)_
 
 ### Paso 5: Probar el Workflow
