@@ -1,0 +1,14 @@
+{
+  "name": "espam-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:auth": "yarn workspace auth-service start:dev",
+    "dev:products": "yarn workspace products start:dev",
+    "dev:frontend": "yarn workspace frontend start",
+    "dev:analisis": "yarn workspace AnalisisVulnerabilidades start:dev",
+    "dev": "turbo run dev"
+  }
+}
